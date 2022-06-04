@@ -1439,7 +1439,7 @@
   (symbol (lib_id "power:GND") (at 34.29 121.92 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 25a8d191-4a8d-4e34-8110-3ef4d76b7fb6)
-    (property "Reference" "#PWR?" (id 0) (at 27.94 121.92 0)
+    (property "Reference" "#PWR0101" (id 0) (at 27.94 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 30.48 121.9199 90)
@@ -1514,7 +1514,7 @@
   (symbol (lib_id "keebio:ProMicro") (at 52.07 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2c11f88e-23cf-4e30-90cd-e39b51d37224)
-    (property "Reference" "U?" (id 0) (at 52.07 109.22 0)
+    (property "Reference" "U1" (id 0) (at 52.07 109.22 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "ProMicro" (id 1) (at 52.07 113.03 0)
@@ -1821,7 +1821,7 @@
   (symbol (lib_id "power:GND") (at 69.85 119.38 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 483b839d-9bd4-44e1-8b19-69c7cb3da586)
-    (property "Reference" "#PWR?" (id 0) (at 76.2 119.38 0)
+    (property "Reference" "#PWR0102" (id 0) (at 76.2 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 73.66 119.3799 90)
@@ -1972,7 +1972,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 92.71 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 676f3f28-f072-4f38-97a1-fb5d1dfe86e3)
-    (property "Reference" "SW?" (id 0) (at 92.71 135.89 0))
+    (property "Reference" "SW1" (id 0) (at 92.71 135.89 0))
     (property "Value" "SW_Push" (id 1) (at 92.71 138.43 0))
     (property "Footprint" "" (id 2) (at 92.71 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2158,7 +2158,7 @@
   (symbol (lib_id "power:VCC") (at 69.85 124.46 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 844ff152-9e59-4197-b20c-0b4ba3fcbf85)
-    (property "Reference" "#PWR?" (id 0) (at 66.04 124.46 0)
+    (property "Reference" "#PWR0103" (id 0) (at 66.04 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (id 1) (at 73.66 124.4599 90)
@@ -2271,7 +2271,7 @@
   (symbol (lib_id "power:GND") (at 97.79 143.51 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a4156c70-69d5-43b1-83af-6e776002d70b)
-    (property "Reference" "#PWR?" (id 0) (at 104.14 143.51 0)
+    (property "Reference" "#PWR0104" (id 0) (at 104.14 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 101.6 143.5099 90)
@@ -3071,16 +3071,16 @@
 
   (symbol_instances
     (path "/25a8d191-4a8d-4e34-8110-3ef4d76b7fb6"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
     (path "/483b839d-9bd4-44e1-8b19-69c7cb3da586"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
     )
     (path "/844ff152-9e59-4197-b20c-0b4ba3fcbf85"
-      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
+      (reference "#PWR0103") (unit 1) (value "VCC") (footprint "")
     )
     (path "/a4156c70-69d5-43b1-83af-6e776002d70b"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
     )
     (path "/fb474aac-b816-4cda-a821-fa6110cfc191"
       (reference "D1") (unit 1) (value "D_Small") (footprint "")
@@ -3335,10 +3335,10 @@
       (reference "MX42") (unit 1) (value "MX-NoLED") (footprint "")
     )
     (path "/676f3f28-f072-4f38-97a1-fb5d1dfe86e3"
-      (reference "SW?") (unit 1) (value "SW_Push") (footprint "")
+      (reference "SW1") (unit 1) (value "SW_Push") (footprint "")
     )
     (path "/2c11f88e-23cf-4e30-90cd-e39b51d37224"
-      (reference "U?") (unit 1) (value "ProMicro") (footprint "")
+      (reference "U1") (unit 1) (value "ProMicro") (footprint "")
     )
   )
 )
